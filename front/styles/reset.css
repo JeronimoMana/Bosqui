@@ -1,0 +1,82 @@
+/* Reset básico de estilos */
+
+/* Box sizing border-box para todos los elementos */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Fuentes */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Listas */
+ul,
+ol {
+    list-style: none;
+}
+
+/* Ajustes para enlaces */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Establecer márgenes y rellenos predeterminados */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+/* Ajustes para la lista de definición */
+dl {
+    margin: 0;
+    padding: 0;
+}
+
+/* Ajustes para la tabla */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Eliminar bordes en imágenes dentro de enlaces */
+a img {
+    border: none;
+}
+
+/* Estilos específicos para algunos elementos */
+input[type="text"],
+input[type="button"],
+input[type="submit"],
+button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+}
+
+/* Eliminar estilos de elementos HTML5 no compatibles en versiones anteriores de IE */
+header,
+footer,
+section,
+article,
+aside,
+nav,
+main {
+    display: block;
+}
